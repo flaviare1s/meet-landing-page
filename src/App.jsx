@@ -1,9 +1,13 @@
 import './App.css'
+import { LogoComponent } from './components/LogoComponent/Logo.Component'
 
 export function App() {
 
   return (
     <div className='font-hat'>
+      <div>
+        < LogoComponent />
+      </div>
       Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
 
       Download v1.3
