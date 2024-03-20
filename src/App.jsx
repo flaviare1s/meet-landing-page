@@ -4,6 +4,7 @@ import { HeroImagesLeft } from './components/HeroImagesComponents/HeroImagesLeft
 import { HeroImagesRight } from './components/HeroImagesComponents/HeroImagesRight'
 import { LogoComponent } from './components/LogoComponent/Logo.Component'
 import { NumberComponent } from './components/NumberComponent/NumberComponent'
+import { PhotosComponent } from './components/PhotosComponent/PhotosComponent'
 
 export function App() {
 
@@ -19,6 +20,9 @@ export function App() {
       </div>
       <div>
         < NumberComponent />
+      </div>
+      <div>
+        < PhotosComponent />
       </div>
      
 
