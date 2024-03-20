@@ -3,6 +3,7 @@ import { HeroComponent } from './components/HeroComponent/HeroComponent'
 import { HeroImagesLeft } from './components/HeroImagesComponents/HeroImagesLeft'
 import { HeroImagesRight } from './components/HeroImagesComponents/HeroImagesRight'
 import { LogoComponent } from './components/LogoComponent/Logo.Component'
+import { NumberComponent } from './components/NumberComponent/NumberComponent'
 
 export function App() {
 
@@ -16,12 +17,15 @@ export function App() {
         <div className='col-span-1'>< HeroImagesRight /></div>
         <div className='col-span-2 flex justify-center'>< HeroComponent /></div>
       </div>
+      <div>
+        < NumberComponent />
+      </div>
      
 
       
      
 
-      01
+      
       Built for modern use
 
       Smarter meetings, all in one place

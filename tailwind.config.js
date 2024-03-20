@@ -17,6 +17,7 @@ export default {
         light_blue: '#8FE3F9',
         light_purple: '#D9B8FF',
         light: '#FAFAFA',
+        light_grey: '#D8D8D8',
       }
     },
   },
