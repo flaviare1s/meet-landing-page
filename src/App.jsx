@@ -5,6 +5,7 @@ import { HeroImagesRight } from './components/HeroImagesComponents/HeroImagesRig
 import { LogoComponent } from './components/LogoComponent/Logo.Component'
 import { NumberComponent } from './components/NumberComponent/NumberComponent'
 import { PhotosComponent } from './components/PhotosComponent/PhotosComponent'
+import { ProductFeaturesComponent } from './components/ProductFeaturesComponent/ProductFeaturesComponent'
 
 export function App() {
 
@@ -19,25 +20,19 @@ export function App() {
         <div className='col-span-2 flex justify-center'>< HeroComponent /></div>
       </div>
       <div>
-        < NumberComponent />
+        < NumberComponent number={'01'} />
       </div>
       <div>
         < PhotosComponent />
       </div>
-     
-
+      <div>
+        < ProductFeaturesComponent />
+      </div>
+      <div>
+        < NumberComponent number={'02'} />
+      </div>
+  
       
-     
-
-      
-      Built for modern use
-
-      Smarter meetings, all in one place
-
-      Send messages, share files, show your screen, and record your meetings — all in one 
-      workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-      02
       Experience more together
       Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
 
