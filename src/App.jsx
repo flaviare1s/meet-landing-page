@@ -1,4 +1,7 @@
 import './App.css'
+import { HeroComponent } from './components/HeroComponent/HeroComponent'
+import { HeroImagesLeft } from './components/HeroImagesComponents/HeroImagesLeft'
+import { HeroImagesRight } from './components/HeroImagesComponents/HeroImagesRight'
 import { LogoComponent } from './components/LogoComponent/Logo.Component'
 
 export function App() {
@@ -8,10 +11,15 @@ export function App() {
       <div>
         < LogoComponent />
       </div>
-      Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+      <div className='grid grid-cols-2'>
+        <div className='col-span-1'>< HeroImagesLeft /></div>
+        <div className='col-span-1'>< HeroImagesRight /></div>
+        <div className='col-span-2 flex justify-center'>< HeroComponent /></div>
+      </div>
+     
 
-      Download v1.3
-      What is it?
+      
+     
 
       01
       Built for modern use
