@@ -1,4 +1,5 @@
 import './App.css'
+import { FooterComponent } from './components/FooterComponent/FooterComponent'
 import { HeroComponent } from './components/HeroComponent/HeroComponent'
 import { HeroImagesLeft } from './components/HeroImagesComponents/HeroImagesLeft'
 import { HeroImagesRight } from './components/HeroImagesComponents/HeroImagesRight'
@@ -31,12 +32,9 @@ export function App() {
       <div>
         < NumberComponent number={'02'} />
       </div>
-  
-      
-      Experience more together
-      Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-      Download v1.3
+      <div>
+        < FooterComponent />
+      </div>
     </div>
   )
 }

@@ -18,7 +18,7 @@ export default {
         light_purple: '#D9B8FF',
         light: '#FAFAFA',
         light_grey: '#D8D8D8',
-      }
+      },
     },
   },
   plugins: [],
