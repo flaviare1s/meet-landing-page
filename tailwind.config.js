@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'hat': ['Red Hat Display', 'sans-serif'],
+      },
+      colors: {
+        green: '#4D96A9',
+        dark_purple: '#855FB1',
+        dark: '#28283D',
+        grey: '#87879D',
+        light_blue: '#8FE3F9',
+        light_purple: '#D9B8FF',
+        light: '#FAFAFA',
+      }
+    },
   },
   plugins: [],
 }

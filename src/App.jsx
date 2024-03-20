@@ -3,7 +3,7 @@ import './App.css'
 export function App() {
 
   return (
-    <div>
+    <div className='font-hat'>
       Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
 
       Download v1.3
