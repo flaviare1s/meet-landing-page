@@ -15,10 +15,10 @@ export function App() {
       <div>
         < LogoComponent />
       </div>
-      <div className='grid grid-cols-2'>
+      <div className='grid grid-cols-2 xl:grid-cols-3'>
         <div className='col-span-1'>< HeroImagesLeft /></div>
-        <div className='col-span-1'>< HeroImagesRight /></div>
-        <div className='col-span-2 flex justify-center'>< HeroComponent /></div>
+        <div className='col-span-1 xl:order-last'>< HeroImagesRight /></div>
+        <div className='col-span-2 xl:col-span-1 flex justify-center'>< HeroComponent /></div>
       </div>
       <div>
         < NumberComponent number={'01'} />
