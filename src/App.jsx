@@ -29,11 +29,8 @@ export function App() {
       <div>
         < ProductFeaturesComponent />
       </div>
-      <div className='relative mt-[50%]'>
+      <div>
         < FooterComponent />
-        <div className='absolute z-50 top-[-25%] left-[50%] translate-x-[-50%]'>
-          < NumberComponent number={'02'} />
-        </div>
       </div>
     </div>
   )
