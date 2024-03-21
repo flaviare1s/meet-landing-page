@@ -16,9 +16,9 @@ export const FooterComponent = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center px-6 lg:flex-row lg:justify-between absolute z-40 top-0 pt-[92px] lg:py-[116px]">
-        <h2 className="text-light font-black text-center text-[32px] leading-[36px] md:text-[40px] md:leading-[44px] mb-6 md:mb-8 xl:mb-0">Experience more together</h2>
-        <p className='text-light font-medium text-lg text-center leading-[26px] lg:text-left'>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-        <button className="w-[193px] h-[58px] bg-dark_purple rounded-[29px] text-light font-black hover:bg-[#B18BDD] mt-8 md:mt-10 lg:mt-0 mb-[72px] md:mb-[66px] lg:mb-0">Download <span className="text-light_purple">v1.3</span></button>
+        <h2 className="text-light font-black text-center text-[32px] leading-[36px] md:text-[40px] md:leading-[44px] mb-6 md:mb-8 md:px-[130px] xl:mb-0">Experience more together</h2>
+        <p className='text-light font-medium text-lg text-center leading-[26px] md:px-[70px] lg:text-left'>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+        <button className="w-[193px] h-[58px] bg-dark_purple rounded-[29px] text-light font-black hover:bg-[#B18BDD] mt-8 md:mt-10 lg:mt-0 mb-[72px] lg:mb-0">Download <span className="text-light_purple">v1.3</span></button>
       </div>
     </div>
   )
